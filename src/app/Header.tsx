@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
     return (
-        <div className="flex flex-row justify-around w-full m-30">
+        <div className="flex flex-row justify-around items-center w-full h-20 m-30 bg-gray-800">
             <p>Logo</p>
             <Link href="/">Home</Link>
             <Link href="/page1">Page 1</Link>

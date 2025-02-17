@@ -2,7 +2,6 @@ import Header from "./Header"
 export default function Home() {
   return (
     <div className="w-full max-w-screen min-h-screen">
-      <Header></Header>
       <main className="items-center text-center min-h-screen flex flex-col items-center justify-around">
         <div className="h-80 flex flex-col justify-around">
           <h1 className="text-8xl">Texto</h1>
